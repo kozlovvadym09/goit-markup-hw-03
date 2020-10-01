@@ -95,13 +95,12 @@ img {
 }
 .sublist {
   display: flex;
-  align-items: center;
 }
 .sublist {
   margin-left: auto;
 }
-.sublist-item {
-  padding-left: 50px;
+.sublist-item-tel {
+  margin-left: 50px;
 }
 
 .navigation-list-item:not(:last-child) {
@@ -117,6 +116,8 @@ img {
   margin-right: 94px;
 }
 .navigation-list-link {
+  display: inline-block;
+  padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -124,6 +125,8 @@ img {
   color: var(--titel-text-color);
 }
 .contact-bright-bg {
+  display: inline-block;
+  padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -144,7 +147,6 @@ img {
 
 /* ======== HERO-Section 1======== */
 .hero {
-  width: 1600px;
   height: 600px;
 }
 
@@ -203,8 +205,9 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--titel-text-color);
+}
+.futures-list-item {
   width: 270px;
-  height: 16px;
 }
 .features-list-text {
   font-weight: 400;
@@ -214,13 +217,13 @@ img {
   color: var(--primary-text-color);
   width: 270px;
   height: 75px;
-  padding-top: 10px;
+  margin-top: 10px;
 }
 /* ======== END FEATURES-Section2 ======== */
 
 /* ======== ABOUT-Section 3 ======== */
 .about {
-  padding-top: 94px;
+  padding: 94px 0;
 }
 .about-desc {
   margin-bottom: 50px;
@@ -254,7 +257,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--titel-text-color);
-  padding-top: 94px;
+  margin-bottom: 50px;
 }
 .staff-list {
   display: flex;
@@ -262,9 +265,7 @@ img {
 .team-list-item:not(:last-child) {
   margin-right: 30px;
 }
-.team-list-item {
-  padding-top: 50px;
-}
+
 .staff-name {
   font-weight: 500;
   font-size: 16px;
@@ -273,7 +274,6 @@ img {
   text-align: center;
   color: var(--titel-text-color);
   margin-bottom: 10px;
-
 }
 .staff-spetiality {
   font-weight: 400;
